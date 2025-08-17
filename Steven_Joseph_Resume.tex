@@ -1,20 +1,19 @@
 % resume.tex
 %
-% (c) 2002 Matthew M. Boedicker <mboedick@mboedick.org> http://mboedick.org
-% $Id: resume.tex,v 1.7 2004/02/02 14:21:06 mboedick Exp $
-%
-\documentclass[10pt]{article}
+\documentclass[12pt]{article}
 \usepackage{fullpage}
 \usepackage{fancyhdr}
+
 \usepackage{hyperref}
 %\usepackage{arev}
 \usepackage[T1]{fontenc}
 %\usepackage[scaled]{tapir}
-\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
-\usepackage{lmodern}
-\usepackage[pdftex]{graphicx}
-\usepackage{wrapfig}
-\usepackage{tikz}
+%\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+\usepackage{times}
+%\usepackage{lmodern}
+%\usepackage[pdftex]{graphicx}
+%\usepackage{wrapfig}
+%\usepackage{tikz}
 \usepackage{tabularx}
 \usepackage{helvet}
 
@@ -25,7 +24,7 @@
     linkcolor=black,%
     urlcolor=black
 }
-\textheight=9.0in
+%\textheight=9.0in
 \pagestyle{empty}
 \raggedbottom
 \raggedright
@@ -77,101 +76,97 @@
 \begin{document}
 
 \contact{Steven Joseph}
-{0406259675  $\bullet$ \href{mailto:steven@stevenjoseph.in}{steven@stevenjoseph.in} $\bullet$  \href{https://www.linkedin.com/in/stevenjose/}{https://www.linkedin.com/in/stevenjose/}}
-{4 Taylor Street, West Pennant Hills, 2125, Sydney, Australia.}
+{0406259675  $\bullet$ \href{mailto:steven@stevenjoseph.in}{steven@stevenjoseph.in} $\bullet$  \href{https://stevenjoseph.in/}{https://stevenjoseph.in/}}
+{Sydney, Australia.}
 
 \vspace{-18pt}
 
 
 \header{Summary}
-Result oriented, customer focused CTO, with hands on experience building and leading early stage startups.
-Visionary technologist, with passion, drive and agility to face any technical challenge.
-Thought diversity, breadth of knowledge and skillset to be able to lead highly skilled teams through complex challenges.
+
+%Dynamic and driven CTO with exceptional coding abilities and a passion for delivering outstanding results. With a customer-centric mindset and a proven track record in leading early-stage startups, this high-energy technologist thrives on tackling complex technical challenges. A combination of extensive expertise and leadership skills enables effective team management and the successful execution of breakthrough projects. An invaluable asset to any organization seeking innovation and success in a fast-paced environment.
 
 
+%Experienced in leveraging Erlang's extreme scaling capabilities, this candidate has the technical skills necessary to build highly concurrent and real-time implementations of the Bitcoin RGB protocol. With expertise in web application development and process automation using Python, as well as experience with DevOps tools and practices, the candidate is well-equipped to handle the challenges of building an Erlang-based implementation. Additionally, their experience as a Chief Technology Officer and Technical Director demonstrates their leadership and project management abilities, making them a strong candidate for this job.
+
+%generate a  for Steven Joseph, CTO/Founder of DamageBDD.com    based on experience below 
+
+Experienced CTO/Developer with hands-on expertise in web application development, process automation, and custom scripting using Python. Skilled in leveraging Erlang's extreme scaling capabilities to build highly concurrent real-time capabilities. Proficient in DevOps, with the ability to configure and manage various technologies and Linux distributions.
+\vspace{15pt}
 %----------------------------------------------SKILLS-----------------------------------------------------------------
 \header{Technical Skills}
 \vspace{2pt}
 \begin{tabular*}{\textwidth}{p{3cm}p{.83\textwidth}}
-    Python: & Web Application Development using Django, Process automation using saltstack and custom python scripting, familiar with usage of Python ML/AI libraries. \\
-    Erlang: & Leveraged extreme scaling capabilites of Erlang to build highly concurrent realtime capabilities and aggressively drive down costs. \\
-    DevOps: & Built process automation and tooling for configuring and managing, Kubernetes, Nginx, Riak, Postgres, on Debian/Ubuntu, ArchLinux, Gentoo, RHEL/Fedora. \\
-    SDLC Processes: & Agile, Xtreme Programming, \href{http://en.wikipedia.org/wiki/Unified\_process}{RUP/OpenUp}. \\
-    JavaScript: & Worked on the awesome dojo javascript framework. Familiar with jQuery. \\
-    HTML/CSS: & Experience developing universal web applications, familiar with accessibility features, used Compass/SASS css metaframework. \\
-    Java SE: & Experience developing a low latency, highly available, scalable instant messaging client/server applications and UI development using swing ui toolkit. \\
-    .Net/C\# : & Experience gained during employment, through research \& development of cross platform \href{http://en.wikipedia.org/wiki/FIX_protocol}{FIX protocol} trading gateway servers using Mono C\#. \\
-    Other: & C/C++, Git(SCM), \LaTeX, bash, zsh, Vim, Emacs.\\
-    %\LaTeX & Comfortable using \LaTeX to maintain documents and process artifacts. \\
+Python: & Experienced in web application development using Django, process automation using saltstack, and custom python scripting. Familiar with Python ML/AI stacks. \\
+Erlang: & Expertise in leveraging Erlang's extreme scaling capabilities to build highly concurrent real-time capabilities. \\
+DevOps: & Proficient in building process automation and tooling for configuring and managing Kubernetes, Nginx, Riak, Postgres, and various Linux distributions. \\ 
+SDLC: & Experienced in Agile, Xtreme Programming, and RUP/OpenUp.\\
+Other: & Proficient in C/C++, Java, HTML, CSS, JavaScript, Git, \LaTeX, bash, zsh, tmux, Vim, and Emacs. \\
+
 \end{tabular*}
 \vspace{15pt}
 %-----------------------------------------------WORK HISTORY----------------------------------------------------
 \header{Professional Experience}
-\employer{\href{http://www.contextu.al/}{Contextu.al}}{February 2018 - Present}{\emph{Chief Technology Officer (CTO)}} {Fishburners, 11 York Street, Sydney, Australia}
-	\begin{achievements}
-      \item[-] Implementing data structures and prototyping ML algorithms to improve high level product functionality at scale.
-      \item[-] Developing realtime capabalities into the product using websockets and event driven architecture.
-      \item[-] Lockdown product functionality and consistently improved product quality using Behaviour Driven Development practices and tooling.
-      \item[-] Rapidly scaled the product technology from 0 to paying customers (+50k MAU), and set the ground work for massive and efficient scalability. 
-      \item[-] Successfuly pivoted existing product into a new product, re-designed and tweaked existing code and technology to enable pivot.
-      \item[-] Hired and lead the development team
-      \item[-] Lead and managed the development of mobile, web and server components of the product.
-      \item[-] Worked on the data engineering problems for handling large amounts of data at low cost.
-      \item[-] Worked on realtime reactive event matching algorithms.
+\employer{\href{http://damagebdd.com/}{DamageBDD.com}}{August 2023 - Present}{\emph{Chief Technology Officer (CTO) / Founder}} {Sydney, Australia}
+    \begin{achievements}
+      \item[-] Founded and architected \textbf{DamageBDD}, a highly concurrent Behavior-Driven Development (BDD) testing framework built in Erlang for resilience, scalability, and fault tolerance.
+      \item[-] Designed and integrated a \textbf{decentralized testing infrastructure}, linking automated BDD verification to DeFi smart contracts for provable, trust-minimized software validation.
+      \item[-] Implemented on-chain verification and payment mechanisms via Bitcoin Lightning and Aeternity, enabling milestone-based payouts and decentralized collaboration.
+      \item[-] Demonstrated novel use cases in distributed systems, web APIs, and mobile environments, positioning DamageBDD as a next-generation quality assurance platform.
+      \item[-] Led product vision, technical direction, and community evangelism as a solo founder, balancing R\&D with business strategy.
     \end{achievements}
-
-\employer{\href{http://www.streethawk.com/}{Streethawk Pty Ltd.}}{February 2016 - February 2018}{\emph{Chief Technology Officer (CTO)}} {Fishburners, 11 York Street, Sydney, Australia}
-	\begin{achievements}
-                \item[-] Refactored server data access layer to interface with an AP (CAP) data store for availability and scalability, orchestrated deployment and migration.
-                \item[-] Setup development process across team of diverse platform developers, implemented agile practices and management.
-                \item[-] Configured CI/CD for multiple mobile and cloud platforms.
-                \item[-] Design, implement and maintain infrastructure through code.
+\employer{\href{http://www.contextu.al/}{Contextu.al \(formerly Pointzi,Streethawk\)}}{February 2016 - August 2023}{\emph{Chief Technology Officer (CTO)}} {Fishburners, 11 York Street, Sydney, Australia}
+    \begin{achievements}
+        \item[-] Implemented data structures and prototyped ML algorithms to improve product functionality at scale.
+        \item[-] Developed real-time capabilities using websockets and event-driven architecture.
+        \item[-] Improved product quality through the adoption of Behavior Driven Development practices.
+        \item[-] Successfully scaled the technology and prepared for future scalability.
+        \item[-] Pivoted the existing product, re-designed code and technology for the pivot.
+        \item[-] Provided technical direction for the development of mobile, web, and server components.
+        \item[-] Worked on data engineering problems and real-time reactive event matching algorithms.
+        \item[-] Refactored server data access layer to interface with an AP (CAP) data store.
+        \item[-] Set up development process and implemented agile practices.
+        \item[-] Configured CI/CD for multiple platforms.
+        \item[-] Designed, implemented, and maintained infrastructure through code.
     \end{achievements}
 
 \employer{\href{http://www.iress.com/}{IRESS Market Technologies Ltd.}}{July 2011 - February 2016}{\emph{Python Web Developer}} {14 Martin Place, Sydney, Australia}
 	\begin{achievements}
-                \item[-] Worked on features and maintenance of a complex large scale python web application.
-                \item[-] Created an extensible data conversion and migration tool to migrate data from large xml datastores into a traditional RDBMS.
-                \item[-] Created and maintained scripts/configuration to efficiently manage development process and tools on a highly customized linux distro.
-                \item[-] Secured runner up in Iress Xplan Hackathon 2012.
+        \item[-] Worked on features and maintenance of a complex large-scale Python web application.
+        \item[-] Created an extensible data conversion and migration tool.
+        \item[-] Created and maintained scripts for development process and tools.
+        \item[-] Secured runner up in Iress Xplan Hackathon 2012.
 	\end{achievements}
+
 \employer{\href{http://www.pfhit.com/}{Pioneer FutureTech Healthcare IT Pvt Ltd.}}{December 2010 - June 2010}{\emph{Technical Director}} {JVLPD, Juhu, Mumbai, India}
 	\begin{achievements}
-                \item[-] Planned and directed the development of an innovative new system for managing medical records on the cloud.
-                \item[-] Applied agile tactics, and continuous testing to deliver an high quality web application within constrained timelines and resources.
-                \item[-] Designed and implemented the web application using Tornado, a python asynchronous web server.
-                \item[-] Created an SMS gateway application to handle incoming sms messages and send responses.
-                \item[-] Dojo implemented the client side javascript/AJAX using Dojo javascript web framework.
-                \item[-] Implemented the website design using Jinja, the python HTML templating library.
-                \item[-] Used the Compass/Sass css meta-framework to implement css design elements.
-                \item[-] Configured CouchDB instances with continuous replication as the backend data store for the web application.
-                \item[-] Handled DevOps, configuring mail servers, load balancing/caching web servers, source code management using gitosis, wikis for documentation, configuring linux systems for developers securing development enviornment.
-                \item[-] Setup experimental deployment environment for testing beta code.
-                \item[-] Screened, selected and trained developers to work on the technologies used in the project.
+        \item[-] Planned and directed the development of a cloud-based system for managing medical records.
+        \item[-] Applied agile tactics and continuous testing to deliver a high-quality web application.
+        \item[-] Designed and implemented the web application using Tornado, a Python asynchronous web server.
+        \item[-] Created an SMS gateway application and worked with Dojo JavaScript/AJAX.
 	\end{achievements}
+
 %\vspace{25pt}
 \employer{\href{http://www.Tickerplantindia.com/}{TickerPlant Ltd.}}{December 2009 - December 2010}{\emph{Senior Software Engineer}} {Andheri, Mumbai, India}
 	\begin{achievements}
-                \item[-] Designed and developed a real-time collaboration suite, providing an instant messaging client applet, a high performance real-time async server, and an administrative utility for monitoring and moderation. Implemented using Java SE with Ms SQL server data storage.
-                \item[-] Utilized Java's high performance NIO libraries to manage network operations asynchronously, maximizing cpu utilization under massive loads.
-                \item[-] Used OpenUp Software development process, to manage the development process.
-                \item[-] Created and maintained design and process documentation for the project.
-                \item[-] Deployed a wiki to maintain ad-hoc development and process documentation.
-                \item[-] Created a python test generator to perform stress tests on the application server.
+        \item[-] Designed and developed a real-time collaboration suite using Java SE.
+        \item[-] Utilized Java's high-performance NIO libraries to manage network operations.
+        \item[-] Managed development process and created documentation.
+        \item[-] Created a python test generator to perform stress tests on the application server.
 	\end{achievements}
 \vspace{5pt}
 \employer{\href{http://www.InfinitelyBeta.com/}{InfinitelyBeta Ltd.}}{June 2009 - Sept 2009}{\emph{Web Programmer}} {Malad, Mumbai, India}
 	\begin{achievements}
-                \item[-] Implemented 3rd party authentication techniques using OpenId, Facebook, and OAuth, on Django web framework.
-                \item[-] Worked on a social networked web application in Python using the Django web framework.
-                %\item[-] Tailored an lightweight development process for web application development.
+        \item[-] Implemented 3rd party authentication techniques using OpenId, Facebook, and OAuth, on Django web framework.
+        \item[-] Worked on a social networked web application in Python using the Django web framework.
 	\end{achievements}
+
 \vspace{5pt}
 \employer{\href{http://www.ftindia.com/}{Financial Technologies (India) Ltd.}}{Jan 2006 - Sept 2007}{\emph{Software Engineer}} {Andheri, Mumbai, India}
 	\begin{achievements}
-                \item[-] Worked on the design and development of an n-tier, multi protocol, distributed, order validating and routing \href{http://en.wikipedia.org/wiki/FIX_protocol}{FIX} gateway server for financial trading, using C\# Mono.Net and Java.
-                \item[-] High level work on the reimplementation of an existing product, a multi protocol order multiplexing \href{http://en.wikipedia.org/wiki/FIX_protocol}{FIX} gateway server, using Mono .Net/C\#.
-                \item[-] Worked on research and development of financial trading application servers on Linux based platforms, designed to handle a large number of concurrent requests.
+        \item[-] Worked on the design and development of an n-tier, multi protocol, distributed, order validating and routing \href{http://en.wikipedia.org/wiki/FIX_protocol}{FIX} gateway server for financial trading, using C\# Mono.Net and Java.
+        \item[-] High level work on the re implementation of an existing product, a multi protocol order multiplexing \href{http://en.wikipedia.org/wiki/FIX_protocol}{FIX} gateway server, using Mono .Net/C\#.
+        \item[-] Worked on research and development of financial trading application servers on Linux based platforms, designed to handle a large number of concurrent requests.
 	\end{achievements}
 \vspace{5pt}
 %\newpage
@@ -179,26 +174,26 @@ Thought diversity, breadth of knowledge and skillset to be able to lead highly s
 \header{Education}
 \employer{\href{http://www.coventry.ac.uk}{Coventry University}}{Coventry, West Midlands, United Kingdom.}
 {M.Sc., Computer Science} { Sept 2007 - Nov 2008}
-	\begin{achievements}
-	        \item MSc Project: ``Evolution Of Trading Rules Using Genetic Programming''.
-                        An algorithm trading engine using genetic programming paradigms, implemented in Python.
-                         Extensively used OpenUp (Unified Process) to manage and document development process.
+    \begin{achievements}
+        \item[-] Masters Project: ``Evolution Of Trading Rules Using Genetic Programming''.
+        An algorithm trading engine using genetic programming paradigms, implemented in Python.
+        Extensively used OpenUp (Unified Process) to manage and document development process.
 	\end{achievements}
-        \vspace{03pt}
-\begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
-        \multicolumn{2}{c}{\emph{Subject Modules}}\\
-        Masters Project & Distributed Software Development\\
-        Research Methods - 1:  Research Skills  & Software Process Management\\
-        Research Methods - 2:  Project Preparation & Legal Issues For Computing\\
-        Internet And Information Security & Ethical Hacking\\
-        Network Planning And Support & Software Design \\
-\end{tabular*}
+%\vspace{05pt}
+%
+%\begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%    Masters Project & Distributed Software Development\\
+%    Research Methods - 1:  Research Skills  & Software Process Management\\
+%    Research Methods - 2:  Project Preparation & Legal Issues For Computing\\
+%    Internet And Information Security & Ethical Hacking\\
+%    Network Planning And Support & Software Design \\
+%\end{tabular*}
 
 \vspace{5pt}
 \employer{\href{http://www.nitte.ac.in/nmamit/}{NMAM Institute of Technology, VTU }} { Nitte, Karkala, Karnataka, India. }
 {B.E., Computer  Science. }{Aug 2001 - May 2005 }
 	\begin{achievements}
-		\item B.E Project: emailfs, a \href{http://en.wikipedia.org/wiki/Virtual_file_system}{virtual file system} kernel module providing file system abstraction to access an online mail box. Implemented in C using linux 2.6 kernel API. Won the best project award.
+		\item[-] B.E Project: emailfs, a \href{http://en.wikipedia.org/wiki/Virtual_file_system}{virtual file system} kernel module providing file system abstraction to access an online mail box. Implemented in C using Linux 2.6 kernel API. Won the best project award.
 	\end{achievements}
 
 \vspace{5pt}
@@ -209,25 +204,19 @@ Thought diversity, breadth of knowledge and skillset to be able to lead highly s
 %\vspace{-10pt}
 \header{Awards \& Achievements} 
 \begin{achievements}
-\item Best Computer Science Project Of The Year Award, NMAMIT, (2005). \\
-\item Member Of College Cultural Committee, NMAMIT, (2004). \\
-\item Visveswariah Technological University Basketball Team Member, (2004).\\
-\item State Level Football Team Member, (2000).\\
-\item House Captain in school, (2000).\\
-\item School Magazine Editor (2001).\\
-\item Best Basketball player (2001). \\
-\item District Level Pole Vault, (1998).\\
+    \item[-] Best Computer Science Project Of The Year Award, NMAMIT, (2005). \\
+    \item[-] Member Of College Cultural Committee, NMAMIT, (2004). \\
+    \item[-] Visveswariah Technological University Basketball Team Member, (2004).\\
+    \item[-] State Level Football Team Member, (2000).\\
+    \item[-] House Captain in school, (2000).\\
+    \item[-] School Magazine Editor (2001).\\
+    \item[-] Best Basketball player (2001). \\
+    \item[-] District Level Pole Vault, (1998).\\
 \end{achievements}
 
 %----------------------------------------ACTIVITIES and INTERESTS-----------------------------------------------------------
-\header{Activities \& Interests} 
-\begin{achievements}
-\item Running and Swimming \\
-\item Basket Ball and Football \\
-\item Science Fiction \\
-\item GNU/Linux Open Source Technologies \\
-\item Evolutionary Computing with special interest in Genetic Programming \\
-\end{achievements}
+\header{Personal Development Activities \& Other Interests} 
+In addition to my passion for computers and technology, I thrive on an active lifestyle, practicing yoga and engaging in high-energy sports like running, basketball, and football. I also have a deep appreciation for science fiction and enjoy working on open source projects. Furthermore, I am fascinated by evolutionary computing and continuously challenge myself through playing FPS games.
 
 %------------------------------------------REFERENCES-----------------------------------------------
 \header{References}
